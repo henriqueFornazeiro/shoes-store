@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    color: #777777;
+}
+
+header a img{
+    width: 70%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.style{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.style h2{
+    font-size: 3rem;
+    color: #000000;
+}
+
+.style .images{
+    margin-top: 50px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.images img{
+    margin-left: 40px;
+} 
+
+.img-left{
+    width: 25%;
+}
+
+.img-right{
+    width: 40%;
+} 
+
+.emphasis{
+    margin-top: 100px;
+    background-color: #C2185B;
+    text-align: center;
+    padding: 50px;
+}
+
+.emphasis h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.products{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products article{
+    background-color: #ffffff;
+}
+
+.product-info{
+    text-align: start;
+    margin-left: 10px;
+    padding: 20px 0;
+}
+
+.product-info p{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.description{    
+    font-weight: 700;
+}
+
+
